@@ -6,17 +6,48 @@ body {
 .left-side {
     position: relative;
     text-align: center;
+    height: 100vh;
+    margin: 0;
+    
 }
 
-div > img {
-    max-height: 100vh;
+.left-side > img {
+    max-height: 100%;
 }
 
-.transparent-black {
-    background-color: gray;
+.transparent-black { 
+    background: rgb(0, 0, 0, 0.6);
     position: absolute;
-    top:30%;
+    top:25%;
     width: 100%;
+    height: 18%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.transparent-black > img {
+    height: 80%;
+    align-self: center;
+}
+
+h1 {
+    color: white;
+    align-self: center;
+    font-family: norsebold;
+    font-size: 400%;
+}
+
+.credit {
+    position: absolute;
+    color: white;
+    bottom: 2%;
+    width: 100%;
+    /* text-align: center; */
+}
+
+.credit > a {
+    color: white;
 }
 
 .right-side {
@@ -24,6 +55,7 @@ div > img {
     flex-direction: column;
     flex-wrap: wrap; 
     justify-content: space-evenly;
+    height: 100vh;
 }
 
 .top,
