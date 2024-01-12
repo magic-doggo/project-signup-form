@@ -62,14 +62,23 @@ h1 {
 .bottom {
     background-color: hsl(0, 0%, 95%);
     flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
 }
 
-form {
-    margin: 15px 30px;
+.top {
+    align-items: flex-end;
 }
+
+.middle {
+    padding: 30px;
+}
+
 
 form > h2 {
     margin: 0;
+    box-sizing: border-box;
 }
 
 label {
