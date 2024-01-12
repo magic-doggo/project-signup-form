@@ -60,7 +60,29 @@ h1 {
 
 .top,
 .bottom {
-    background-color: hsl(0, 0.00%, 58.00%);
+    background-color: hsl(0, 0%, 95%);
     flex-grow: 1;
 }
 
+form {
+    margin: 15px 30px;
+}
+
+form > h2 {
+    margin: 0;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+.both-columns {
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+}
+
+input {
+    border: 1px solid #E5E7EB;
+}
