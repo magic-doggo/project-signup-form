@@ -59,6 +59,7 @@ h1 {
     flex-wrap: wrap; 
     justify-content: space-evenly;
     height: 100vh;
+    flex-grow: 1;
 }
 
 .italic {

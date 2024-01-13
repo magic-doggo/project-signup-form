@@ -51,5 +51,21 @@
             <p>Already have an account? <span class="green">Log in</span></p>
         </div>
     </div>
+    <script>
+        let password = document.getElementById("password")
+        let confirm_password = document.getElementById("confirm-password")
+
+        function validatePassword(){
+            if(password.value != confirm_password.value) {
+                confirm_password.setCustomValidity("Passwords are different");
+            }
+            else {
+                confirm_password.setCustomValidity("");
+            }
+        }
+
+        password.onchange = validatePassword;
+        confirm_password.onkeyup = validatePassword;
+    </script>
 </body>
 </html>
