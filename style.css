@@ -109,6 +109,7 @@ label {
 
 input {
     border: 1px solid #E5E7EB;
+    margin-top: 2px;
 }
 
 .bottom {
@@ -127,4 +128,8 @@ button {
 .green {
     color: #596D48;
     font-style: bold;
+}
+
+input:focus {
+    outline-color: rgb(125, 149, 226);
 }
