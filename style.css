@@ -1,6 +1,9 @@
+
+
 body {
     display: flex;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .left-side {
@@ -58,6 +61,10 @@ h1 {
     height: 100vh;
 }
 
+.italic {
+    font-style: italic;
+}
+
 .top,
 .bottom {
     background-color: hsl(0, 0%, 95%);
@@ -71,14 +78,20 @@ h1 {
     align-items: flex-end;
 }
 
+.top > h2 {
+    max-width: 75%;
+    font-size: larger;
+}
+
 .middle {
     padding: 30px;
 }
 
 
 form > h2 {
-    margin: 0;
+    margin: 0 0 10px 0;
     box-sizing: border-box;
+    font-size: larger;
 }
 
 label {
@@ -90,8 +103,28 @@ label {
     display: flex;
     justify-content: flex-start;
     gap: 40px;
+    font-size: x-small;
+    letter-spacing: 1px;
 }
 
 input {
     border: 1px solid #E5E7EB;
+}
+
+.bottom {
+    display: block;
+}
+
+button {
+    width: 160px;
+    height: 30px;
+    background-color: #596D48;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.green {
+    color: #596D48;
+    font-style: bold;
 }
