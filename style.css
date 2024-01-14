@@ -34,10 +34,10 @@ body {
     align-self: center;
 }
 
-h1 {
+.norsebold {
     color: white;
     align-self: center;
-    font-family: norsebold;
+    font-family: norsebold, Arial, Helvetica, sans-serif;
     font-size: 400%;
 }
 
